@@ -5,4 +5,5 @@ authors = ["Dylan McKay <me@dylanmckay.io>"]
 edition = '2018'
 
 [dependencies]
-ruduino = "0.3"
+ruduino = "0.3.2"
+avr_delay = { path = "../avr_delay" }
